@@ -1,8 +1,10 @@
 {
   "name": "fitness_tracker",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -16,5 +18,15 @@
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bcook131/gt-hw-17.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bcook131/gt-hw-17/issues"
+  },
+  "homepage": "https://github.com/Bcook131/gt-hw-17/index.html",
+  "description": ""
 }
